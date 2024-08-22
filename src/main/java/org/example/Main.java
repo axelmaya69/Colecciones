@@ -6,7 +6,7 @@ import java.util.*;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        List<Persona> lista = new ArrayList<>(); //asi se declara un arrayList
+        List<Persona> lista = new LinkedList<Persona>(); //asi se declara un arrayList
         lista.add(new Persona(1, "Juan", 22));
         lista.add(new Persona(2, "Maria", 12));
         lista.add(new Persona(3, "Marcos", 24)); //llenado de la lista
@@ -16,6 +16,9 @@ public class Main {
         for (int i = 0; i < lista.size(); i++) {
             System.out.println("Prueba " + lista.get(i).getNombre());
         }
+        //agregando al indice primero
+        lista.add(0,new Persona(45, "Mariana", 45));
+        
 
         //recorrido forEach
         for (Persona pipol : lista) {
