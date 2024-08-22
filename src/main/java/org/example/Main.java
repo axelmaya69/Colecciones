@@ -27,7 +27,7 @@ public class Main {
         for (int i = 0; i < lista.size(); i++) {
             System.out.println("Elementos actualizados: "+lista.get(i).getNombre());
         }
-        
+
     }
     
     
