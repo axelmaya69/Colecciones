@@ -18,7 +18,7 @@ public class Main {
         }
         //agregando al indice primero
         lista.add(0,new Persona(45, "Mariana", 45));
-        
+
 
         //recorrido forEach
         for (Persona pipol : lista) {
