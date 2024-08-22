@@ -1,0 +1,1 @@
+las colecciones son estructuras similares a los arreglos, pero su caracteristica principal es que son dinamicos. en Java su implementacion se hace con la interfaz Collection, lo que permite implementar una serie de metodos como agregar, añadir, eliminar u obtener el tamaño 
