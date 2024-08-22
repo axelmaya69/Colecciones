@@ -14,20 +14,20 @@ public class Main {
 
         //recorrer por indice
         for (int i = 0; i < lista.size(); i++) {
-            System.out.println("Prueba "+lista.get(i).getNombre());
+            System.out.println("Prueba "+lista.get(i).getNombre()+"\n");
         }
 
         //recorrido forEach
         for (Persona pipol:lista){
-            System.out.println("Prueba ForEach: "+ pipol.getNombre());
+            System.out.println("Prueba ForEach: "+ pipol.getNombre()+"\n");
         }
 
         //eliminar un elemento
         lista.remove(1);
         for (int i = 0; i < lista.size(); i++) {
-            System.out.println("Elementos actualizados: "+lista.get(i).getNombre());
+            System.out.println("Elementos actualizados: "+lista.get(i).getNombre()+"\n");
         }
 
     }
-    
+
 }
